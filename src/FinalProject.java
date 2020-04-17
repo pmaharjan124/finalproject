@@ -5,10 +5,6 @@ sorting array elements using bubble sort algorithm
 it should ask for 10
 create a prompt
 
-Identify words that starts from vowel
-build in that way it will call only vowel starting words
-pick only those words which start from vowel
-
 #vowel concept
 #create a list which will shows the original order
 #create a list which will shows the alphabetical order
@@ -22,20 +18,18 @@ pick only those words which start from vowel
 
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Collections;
+
 public class FinalProject {
     public static void main(String[]args){
 
 
-         String fruits[]= new String[10]; //it is asking 10 fruits
+      String fruits[]= new String[10]; //it is asking 10 fruits
 
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter a word: ");
+        System.out.println("Enter 10 word: ");
         String word = sc.nextLine();
         sc.nextLine();
-
-//String fruits[]= {"kiwi", "pineapple","apple","banana","orange", "grapes", "watermelon", "cherry", "strawberry", "melon"};
-
-       System.out.println("Enter the 10 fruits ");
 
         fruits[0] = "kiwi"; //putting values in position
         fruits[1] = "pineapple";
@@ -43,14 +37,16 @@ public class FinalProject {
         fruits[3] = "banana";
         fruits[4] = "orange";
         fruits[5] = "grapes";
-        fruits[6] = "watermelon";
         fruits[7] = "cherry";
         fruits[8] = "strawberry";
         fruits[9] = "melon";
 
         System.out.println("Original order: " +Arrays.toString(fruits));
 
-       
+        System.out.println("Sorted Arraylist: "+ Arrays.toString(fruits));
+
+
+
 
 
 
