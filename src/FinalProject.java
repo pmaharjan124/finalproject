@@ -43,7 +43,7 @@ public class FinalProject {
 
         System.out.println("Original order: " +Arrays.toString(fruits));
 
-        System.out.println("Sorted Arraylist: "+ Arrays.toString(fruits));
+
 
 
 
